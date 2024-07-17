@@ -99,8 +99,23 @@ export const jarayonLink = [
         title:'Viloyat BMSMlar direktorlar Kengashi ish rejasi',
         url:'https://zarkentbmsm.uz/PDFlar/Direktorlar_kengashi_ish_rejasi.pdf'
     },
+    {
+        title:"Mahorat Darsi",
+        url:"https://docs.google.com/document/d/1_m5Ep1bzl7rDI5pOpzDJTmRoJebcAdCz/edit"
+    },
+    {
+        title:"Faoliyat ko'rsatayotgan O'qtuvchilar",
+        url:"https://docs.google.com/document/d/1jCF9Djpg8sKdA4SYTjH8eL4HxKvXTtLf/edit"
+    },
+    {
+        title:"Bo'sh ish o'rinlari",
+        url:"https://docs.google.com/document/d/17U4zcVeqQlId729BAZ7up15ztvozS55M/edit"
+    },
+    {
+        title:"Maktab ko'rsatgichlari",
+        url:"https://docs.google.com/document/d/1a-980_kS5G4OWizyPSNrvV05_hWK95Qu/edit?usp=sharing&ouid=115793320638836892454&rtpof=true&sd=true"
+    },
 
     
 ]
-
 
