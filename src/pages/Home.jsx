@@ -74,7 +74,7 @@ const Home = () => {
   return (
     <div className='w-full container pt-5 ttttt'>
       <div className='max-w-[1100px] m-auto'>
-        <Slider {...settings} className='m-auto container'>
+        {/* <Slider {...settings} className='m-auto container'>
           {
             swagger.map((item, index) => (
               <div key={index} className='md:max-w-[300px] h-[200px] px-2'>
@@ -82,7 +82,7 @@ const Home = () => {
               </div>
             ))
           }
-        </Slider>
+        </Slider> */}
       </div>
         <h1 className='text-center text-3xl my-10'>Maktab Yangliklari</h1>
       <section className='px-5 flex justify-between gap-10'>
