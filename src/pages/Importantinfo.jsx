@@ -8,7 +8,7 @@ const Importantinfo = () => {
     <>
     <section className='mt-10'>
       <h1 className='text-center md:text-3xl'>BMSM to‘g‘risida asosiy ma’lumotlar</h1>
-      <ul>
+      <ul className='max-w-[850px]'>
         {
           bms.map((item,index) =>(
             <li className='text-sm px-4 md:text-xl m-auto max-w-[1000px] pt-3'>
@@ -27,7 +27,7 @@ const Importantinfo = () => {
             <li className='text-sm px-4 md:text-xl m-auto max-w-[1000px] pt-3'>
         Elektron pochta manzili:
         <b>
-          <Link to=' bmsm34tv@gmail.com'>  musiqamaktabi95@gmail.com</Link>
+          <Link to='bmsm34tv@gmail.com'>  musiqamaktabi95@gmail.com</Link>
         </b>
             </li>
       </ul>

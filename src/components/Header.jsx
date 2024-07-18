@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import logo from '../assets/logo2.png';
+import logo from '../assets/logo/logo2.png';
 import { useState } from 'react';
 import documents, { bmsLink, jarayonLink } from '../services/linkData';
 import { FaBars, FaTimes } from 'react-icons/fa';
