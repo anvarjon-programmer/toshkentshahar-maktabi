@@ -6,15 +6,15 @@ import img4 from '../../assets/emp4.png'
 const MaktabRahbaryati = () => {
   return (
     <section className='bg-[#eee] mt-10'>
-      <div className='bg-white max-w-[1000px] pt-10 m-auto'>
+      <div className='bg-white max-w-[1000px] pt-[50px] m-auto'>
         <div className='p-10 md:flex items-center justify-between gap-8'>
           <div className=''>
-           <img className='w-[300px]' src={img1} alt="" />
+           <img className='w-[300px] m-auto' src={img1} alt="" />
           </div>
           <div className='mt-7 md:mb-10'>
-            <h2 className='text-3xl font-bold'>Adilova Sayyora Saypillayevna</h2>
+            <h2 className='text-3xl font-bold text-center'>Adilova Sayyora Saypillayevna</h2>
             <h3 className='text-2xl my-3 font-medium'>2-sonli bolalar musiqa va san’at maktabi direktori</h3>
-            <p className='text-xl'>Telefon: +998 94 669 85-25</p>
+            <p className='text-xl text-center'>Telefon: +998 94 669 85-25</p>
             <p className='text-xl my-1'>Qabul kunlari: Seshanba - 10:00 - 12:00</p>
             <p className='text-xl'>Payshanba - 15:00 - 17:00</p>
           </div>

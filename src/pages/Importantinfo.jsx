@@ -133,17 +133,18 @@ const Importantinfo = () => {
         </table>
     </section>
 
-    <section className='container w-full flex'>
-  <div className='m-auto mt-8' style={{ position: 'relative', width: '100%', paddingBottom: '56.25%' }}>
-    <iframe 
-      className='absolute top-0 left-0 w-full h-full' 
-      src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d12045.19797174089!2d71.62111518715817!3d40.99681759999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1seducation%20center!5e0!3m2!1sen!2s!4v1721019193047!5m2!1sen!2s"
+    <section className="container w-full flex">
+  <div className="m-auto mt-8" style={{ position: 'relative', width: '100%', paddingBottom: '56.25%' }}>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47942.12381553579!2d69.25925479725498!3d41.322290004609044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38aef56930a91767%3A0x4283894c110cd6dd!2sMusiqa%20va%20san&#39;at%20maktabi!5e0!3m2!1sen!2s!4v1721382272386!5m2!1sen!2s"
+      style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 0 }}
       allowFullScreen=""
       loading="lazy"
       referrerPolicy="no-referrer-when-downgrade"
     ></iframe>
   </div>
 </section>
+
 
 
     </>
