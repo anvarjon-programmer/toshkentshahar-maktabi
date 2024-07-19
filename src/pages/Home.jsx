@@ -6,11 +6,24 @@ import swagger from '../services/swagger-img';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
 import maktabRouteLink from '../services/MaktabRouteLinks';
+import { fortopiano } from '../services/personnel';
 
 const Home = () => {
   const [data, setData] = useState([]);
   const [currentPage, setCurrentPage] = useState(0);
   const itemsPerPage = 3;
+
+  const [currentFortopianoPage, setCurrentFortopianoPage] = useState(0);
+   const fortopianoItemsPerPage = 6;
+
+   const handleFortopianoPageClick = (pageIndex) => {
+    setCurrentFortopianoPage(pageIndex);
+  };
+
+  const fortopianoOffset = currentFortopianoPage * fortopianoItemsPerPage;
+const currentFortopianoData = fortopiano.slice(fortopianoOffset, fortopianoOffset + fortopianoItemsPerPage);
+const fortopianoPageCount = Math.ceil(fortopiano.length / fortopianoItemsPerPage);
+const fortopianoPageNumbers = [...Array(fortopianoPageCount).keys()];
 
   var settings = {
     dots: false,
@@ -98,21 +111,18 @@ const Home = () => {
         </div>
         </div>
 
-        <div className='w-full'>
+        <div className='w-full flex flex-col gap-4'>
           {
             currentPageData.map((item, index) => (
-              <div className='md:flex  items-center  justify-center gap-7 mt-11' key={index}>
-                  <img className='w-full md:w-[150px] m-auto h-full  object-cover' src={item.file || "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWz9tftw9qculFH1gxieWkxL6rbRk_hrXTSg&s"} alt="" />
-                <div className=''>
-                  <h4 className=' md:text-xl'>{item.title}</h4>
-                  <p className='my-3 md:text-[16px]'>{item.description.slice(0, 200)}</p>
-                   <div className='flex items-center justify-end'>
-                   <Link to='/' className=''>
-                    <i>Batafsil</i>
-                   </Link>
-                   </div>
-                </div>
-              </div>
+              
+<a href="#" class="flex flex-col items-center gap-5 bg-white border border-gray-200 rounded-lg shadow md:flex-row md: hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+    <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src={item.file || "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWz9tftw9qculFH1gxieWkxL6rbRk_hrXTSg&s"} alt=""/>
+    <div class="flex flex-col justify-between p-4 leading-normal">
+        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{item.title}</h5>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">{item.description.slice(0, 200)}</p>
+    </div>
+</a>
+
             ))
           }
       <div className='pagination-container md:mt-[200px]'>
@@ -131,7 +141,43 @@ const Home = () => {
         </div>
       </section>
 
-      <section></section>
+      <section className='px-4 mb-6'>
+        <h1 className='text-center font-semibold mb-10 text-2xl md:text-4xl '>Faoliyat yutitayotgan Xodimlar</h1>
+  <div className='grid grid-cols md:grid-cols-2 lg:grid-cols-3 gap-[30px] xl:grid-cols-3
+      max-w-sm mx-auto md:max-w-none md:mx-0'>
+    {
+      currentFortopianoData.map((item, index) => (
+        <div key={index}>
+          <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-[750px]">
+              <div className='h-[380px]'>
+                  <img className='rounded-t-lg h-full w-full object-cover' src={item.img} alt="" />
+              </div>
+              <div className="p-5">
+                      <h6 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white"> {item.name}</h6>
+                  <p className="mb-1  text-gray-700 dark:text-gray-400 font-bold"> <i className='font-extrabold'>Yo'nalishi: </i> {item.lavozim}</p>
+                  <p className="mb-1 font-bold mt-1 text-gray-700 dark:text-gray-400"> <i className='font-extrabold'>Ma’lumoti: </i>{item.malumoti}</p>
+                  <p className="mb-1 font-bold mt-1 text-gray-700 dark:text-gray-400"> <i className='font-extrabold'>Taxsil olayotgan o’quv yurti: </i>{item.oquvYurt}</p>
+                  <p className="mb-1 font-bold mt-1 text-gray-700 dark:text-gray-400"> <i className='font-extrabold'>Mutaxassisligi</i>: {item.mutaxaslig}</p>
+                  <p className="mb-1 font-bold mt-1 text-gray-700 dark:text-gray-400">{item.ishJoy}</p>
+              </div>
+          </div>
+        </div>
+      ))
+    }
+  </div>
+  <div className='pagination-container mt-6 md:mt-[20px] flex justify-center'>
+    {fortopianoPageNumbers.map((number) => (
+      <button
+        key={number}
+        onClick={() => handleFortopianoPageClick(number)}
+        className={`pagination-button text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 ${currentFortopianoPage === number ? 'active' : ''}`}
+      >
+        {number + 1}
+      </button>
+    ))}
+  </div>
+</section>
+
     </div>
   );
 }; 

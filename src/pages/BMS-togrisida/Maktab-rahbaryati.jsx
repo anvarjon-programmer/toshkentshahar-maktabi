@@ -8,8 +8,8 @@ const MaktabRahbaryati = () => {
     <section className='bg-[#eee] mt-10'>
       <div className='bg-white max-w-[1000px] pt-10 m-auto'>
         <div className='p-10 md:flex items-center justify-between gap-8'>
-          <div className='md:max-w-[300px]'>
-           <img className='w-full' src={img1} alt="" />
+          <div className=''>
+           <img className='w-[300px]' src={img1} alt="" />
           </div>
           <div className='mt-7 md:mb-10'>
             <h2 className='text-3xl font-bold'>Adilova Sayyora Saypillayevna</h2>
@@ -22,9 +22,9 @@ const MaktabRahbaryati = () => {
       </div>
 
       <div className='bg-white max-w-[1000px] mt-10 m-auto'>
-        <div className='p-10 md:flex items-center justify-between gap-8'>
-          <div className='md:max-w-[300px]'>
-           <img className='w-full' src={img2} alt="" />
+        <div className='p-10 md:flex items-center justify-between gap-[40px]'>
+          <div className=''>
+           <img className='w-[470px]' src={img2} alt="" />
           </div>
           <div className='mt-7 md:mb-10'>
             <h2 className='text-3xl font-bold'>Usmanova Nadira
