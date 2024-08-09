@@ -11,7 +11,7 @@ import { fortopiano } from '../services/personnel';
 const Home = () => {
   const [data, setData] = useState([]);
   const [currentPage, setCurrentPage] = useState(0);
-  const itemsPerPage = 3;
+  const itemsPerPage = 4;
 
   const [currentFortopianoPage, setCurrentFortopianoPage] = useState(0);
    const fortopianoItemsPerPage = 6;
@@ -65,7 +65,7 @@ const fortopianoPageNumbers = [...Array(fortopianoPageCount).keys()];
   useEffect(() => {
     const fetchFroduct = async () => {
       try {
-        const { data } = await axios.get("https://parsingbot.pythonanywhere.com");
+        const { data } = await axios.get("https://parsing3bot.pythonanywhere.com/");
         setData(data);
         console.log(data);
       } catch (error) {
@@ -114,19 +114,17 @@ const fortopianoPageNumbers = [...Array(fortopianoPageCount).keys()];
         <div className='w-full flex flex-col gap-4'>
           {
             currentPageData.map((item, index) => (
-              
-<a href="#" class="flex flex-col items-center gap-5 bg-white border border-gray-200 rounded-lg shadow md:flex-row md: hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-    <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src={item.file || "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWz9tftw9qculFH1gxieWkxL6rbRk_hrXTSg&s"} alt=""/>
-    <div class="flex flex-col justify-between p-4 leading-normal">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{item.title}</h5>
-        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">{item.description.slice(0, 200)}</p>
-    </div>
-</a>
-
+            <a key={index} href="#" className="flex flex-col items-center gap-5 bg-white border border-gray-200 rounded-lg shadow md:flex-row md: hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src={item.file || "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWz9tftw9qculFH1gxieWkxL6rbRk_hrXTSg&s"} alt=""/>
+                <div className="flex flex-col justify-between p-4 leading-normal">
+                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{item.title}</h5>
+                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">{item.description.slice(0, 200)}</p>
+                </div>
+            </a>
             ))
           }
-      <div className='pagination-container md:mt-[200px]'>
-      {currentPage > 3 && (
+      <div className='pagination-container my-10'>
+      {(
           pageNumbers.map((number) => (
             <button
               key={number}
