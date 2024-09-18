@@ -6,6 +6,8 @@ import {  AxloqQoidalar, BmsmUstavi, FarmonlarQarorlar, Guvohnoma, Home, Importa
 import OquvDasturi from './pages/Oquv-Dasturi'
 import Festival from './pages/Festival'
 import Galery from './pages/Galery'
+import Yanglilar from './pages/MaktabYangliklari'
+import DetailPage from './pages/DetailPage'
 
 function App() {
 
@@ -16,6 +18,8 @@ function App() {
          <Header/>
           <Routes>
             <Route path='/' element={<Home/>}/>
+            <Route path='/yangliklar' element={<Yanglilar/>}/>
+            <Route path="/detail/:id" element={<DetailPage />} />
             <Route path='/galery' element={<Galery/>}/>
             <Route path='/konstututsiya' element={<Konstututsiya/>}/>
             <Route path='/kodeksQonunlar' element={<KodeksQonunlar/>}/>
@@ -26,7 +30,6 @@ function App() {
             <Route path='/importantinfo' element={<Importantinfo/>}/>
 
             <Route path='/maktabRahbaryati' element={<MaktabRahbaryati/>}/>  
-            <Route path='/xodimlar' element={<Xodimlar/>}/>  
             <Route path='/bmsmUstavi' element={<BmsmUstavi/>}/>  
             <Route path='/guvohnoma' element={<Guvohnoma/>}/>  
             <Route path='/maktabStrakturasi' element={<MaktabStrakturasi/>}/>  
