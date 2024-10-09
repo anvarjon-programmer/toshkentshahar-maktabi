@@ -10,6 +10,40 @@ import swagger8 from '../assets/swagger/swaggeer8.jpg'
 import swagger9 from '../assets/swagger/swaggeer9.jpg'
 import swagger10 from '../assets/swagger/swaggeer10.jpg'
 
+//galery
+import img1 from  '../assets/galereya/1.jpg';
+import img2 from  '../assets/galereya/2.jpg';
+import img3 from  '../assets/galereya/3.jpg';
+import img4 from  '../assets/galereya/4.jpg';
+import img5 from  '../assets/galereya/5.jpg';
+import img6 from  '../assets/galereya/6.jpg';
+import img7 from  '../assets/galereya/7.jpg';
+import img8 from  '../assets/galereya/8.jpg';
+import img9 from  '../assets/galereya/9.jpg';
+import img10 from  '../assets/galereya/10.jpg';
+import img11 from  '../assets/galereya/11.jpg';
+import img12 from  '../assets/galereya/12.jpg';
+import img13 from  '../assets/galereya/13.jpg';
+import img14 from  '../assets/galereya/14.jpg';
+import img15 from  '../assets/galereya/15.jpg';
+import img16 from  '../assets/galereya/16.jpg';
+import img17 from  '../assets/galereya/17.jpg';
+import img18 from  '../assets/galereya/18.jpg';
+import img19 from  '../assets/galereya/19.jpg';
+import img20 from  '../assets/galereya/20.jpg';
+import img21 from  '../assets/galereya/21.jpg';
+import img22 from  '../assets/galereya/22.jpg';
+import img23 from  '../assets/galereya/23.jpg';
+import img24 from  '../assets/galereya/24.jpg';
+import img25 from  '../assets/galereya/25.jpg';
+import img26 from  '../assets/galereya/26.jpg';
+import img27 from  '../assets/galereya/27.jpg';
+import img28 from  '../assets/galereya/28.jpg';
+
+
+
+
+
 ///Swapper
 const swagger = [
     {
@@ -215,43 +249,117 @@ export const farmon = [
 
 export const cartImg = [
     {
-        img:"http://localhost:3000/static/media/photo_2024-04-05_09-59-26.8467d3ec69410595da71.jpg",
-        title:`“Bo’zatov Fest 2024” tanlovi davom etmoqda.`
+       img: img1,
+       name: "maktab binosi"
     },
     {
-        img:"http://localhost:3000/static/media/photo_2024-04-24_16-05-17.1f6a4d858f578a5a4de9.jpg",
-        title:`2024-yil 24- aprel kuni Qashqadaryo viloyati Mirishkor tumani 19-son bolalar musiqa va sanat`
+       img: img2,
+       name: "aktiv zali"
     },
     {
-        img:"http://localhost:3000/static/media/photo_2024-05-10_16-14-53.5adbecabad2eb3424f8c.jpg",
-        title:`Qashqadaryo viloyati Oila va xotin-qizlar boshqarmasi Mirishkor tuman Oila va xotin-qizlar boʻlimi`
+       img: img3,
+       name: "2-sonli BMS maktabi honasi"
     },
     {
-        img:"http://localhost:3000/static/media/photo_2024-04-09_15-29-31.5f1dfcc1944f8226684e.jpg",
-        title:`9-aprel – Amir Temur tavallud topgan kun!`
+       img: img4,
+       name: "2-sonli BMS maktabi honasi"
     },
     {
-        img:"http://localhost:3000/static/media/photo_2024-04-24_16-05-17.1f6a4d858f578a5a4de9.jpg",
-        title:`Qashqadaryo viloyat Mirishkor tumani 19-son Bolalar musiqa va sanʼat maktabida dars mashgʻulotlari`
+       img: img5,
+       name: "2-sonli BMS maktabi honasi"
     },
-    // {
-    //     img:"	http://localhost:3000/static/media/photo_2024-05-05_14-36-36.1b379dda80d94d3fb8c2.jpg",
-    //     title:`Mirishkor  Tuman 19 BMSM navruz Kurbonova`
-    // },
-    // {
-    //     img:"	http://localhost:3000/static/media/photo_2024-05-05_14-36-36.1b379dda80d94d3fb8c2.jpg",
-    //     title:`Миришкор туман 19 БМСМ Навруза Курбанова.`
-    // },
-    // {
-    //     img:"	http://localhost:3000/static/media/photo_2024-05-05_14-36-36.1b379dda80d94d3fb8c2.jpg",
-    //     title:`Миришкор туман 19 БМСМ Навруза Курбанова.`
-    // },{
-    //     img:"	http://localhost:3000/static/media/photo_2024-05-05_14-36-36.1b379dda80d94d3fb8c2.jpg",
-    //     title:`Миришкор туман 19 БМСМ Навруза Курбанова.`
-    // },
+    {
+       img: img6,
+       name: "2-sonli BMS maktabi honasi"
+    },
+    {
+       img: img7,
+       name: "2-sonli BMS maktabi honasi"
+    },
+    {
+       img: img8,
+       name: "2-sonli BMS maktabi honasi"
+    },
+    {
+       img: img9,
+       name: "2-sonli BMS maktabi honasi"
+    },
+    {
+       img: img10,
+       name: "2-sonli BMS maktabi honasi"
+    },
+    {
+       img: img11,
+       name: "2-sonli BMS maktabi honasi"
+    },
+    {
+       img: img12,
+       name: "2-sonli BMS maktabi honasi"
+    },
+    {
+       img: img13,
+       name: "2-sonli BMS maktabi honasi"
+    },
+    {
+       img: img14,
+       name: "2-sonli BMS maktabi honasi"
+    },
+    {
+       img: img15,
+       name: "2-sonli BMS maktabi honasi"
+    },
+    {
+       img: img16,
+       name: "2-sonli BMS maktabi honasi"
+    },
+    {
+       img: img17,
+       name: "2-sonli BMS maktabi honasi"
+    },
+    {
+       img: img18,
+       name: "2-sonli BMS maktabi honasi"
+    },
+    {
+       img: img19,
+       name: "2-sonli BMS maktabi honasi"
+    },
+    {
+       img: img20,
+       name: "2-sonli BMS maktabi honasi"
+    },
+    {
+       img: img21,
+       name: "2-sonli BMS maktabi honasi"
+    },
+    {
+       img: img22,
+       name: "2-sonli BMS maktabi honasi"
+    },
+    {
+       img: img23,
+       name: "2-sonli BMS maktabi honasi"
+    },
+    {
+       img: img24,
+       name: "2-sonli BMS maktabi honasi"
+    },
+    {
+       img: img25,
+       name: "2-sonli BMS maktabi honasi"
+    },
+    {
+       img: img26,
+       name: "2-sonli BMS maktabi honasi"
+    },
+    {
+       img: img27,
+       name: "2-sonli BMS maktabi honasi"
+    },
+    {
+       img: img28,
+       name: "2-sonli BMS maktabi honasi"
+    }
+];
 
-
-
- 
-]
 
