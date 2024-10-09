@@ -136,7 +136,7 @@ const Importantinfo = () => {
     <section className="container w-full flex">
   <div className="m-auto mt-8" style={{ position: 'relative', width: '100%', paddingBottom: '56.25%' }}>
     <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47942.12381553579!2d69.25925479725498!3d41.322290004609044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38aef56930a91767%3A0x4283894c110cd6dd!2sMusiqa%20va%20san&#39;at%20maktabi!5e0!3m2!1sen!2s!4v1721382272386!5m2!1sen!2s"
+      src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2995.8826996177036!2d69.32229207557522!3d41.333163999357566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDHCsDE5JzU5LjQiTiA2OcKwMTknMjkuNSJF!5e0!3m2!1sen!2s!4v1728499892352!5m2!1sen!2s"  referrerpolicy="no-referrer-when-downgrade"
       style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 0 }}
       allowFullScreen=""
       loading="lazy"
@@ -147,8 +147,9 @@ const Importantinfo = () => {
 
 
 
+
     </>
   )
 }
-
+//<iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2995.8826996177036!2d69.32229207557522!3d41.333163999357566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDHCsDE5JzU5LjQiTiA2OcKwMTknMjkuNSJF!5e0!3m2!1sen!2s!4v1728499892352!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 export default Importantinfo

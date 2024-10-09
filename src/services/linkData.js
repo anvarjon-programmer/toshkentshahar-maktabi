@@ -11,18 +11,18 @@
         title:"O‘zbekiston Respublikasi Prezidentining farmonlari va qarorlari",
         url:"/farmonlarQarorlar"
     },
-    {
-        title:"O‘zbekiston Respublikasi Vazirlar Mahkamasining qarorlari",
-        url:"/vazirlarMahkamasiqarori"
-    },
-    {
-        title:"O‘zbekiston Respublikasi Madaniyat vazirining buyruqlari, Xay’at qarorlari",
-        url:"/xayatQarori"
-    },
-    {
-        title:"O‘z kuchini yo‘qotgan hujjatlar",
-        url:"/yoqotganHujatlar"
-    },
+    // {
+    //     title:"O‘zbekiston Respublikasi Vazirlar Mahkamasining qarorlari",
+    //     url:"/vazirlarMahkamasiqarori"
+    // },
+    // {
+    //     title:"O‘zbekiston Respublikasi Madaniyat vazirining buyruqlari, Xay’at qarorlari",
+    //     url:"/xayatQarori"
+    // },
+    // {
+    //     title:"O‘z kuchini yo‘qotgan hujjatlar",
+    //     url:"/yoqotganHujatlar"
+    // },
 ]
 
 export default documents

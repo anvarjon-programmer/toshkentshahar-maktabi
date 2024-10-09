@@ -44,7 +44,7 @@ export const fortopiano = [
     {
       img:img13,
       name:"Kasimova Galiya Valizyanovna",
-      lavozim:"fortepiano yo’nalishi o’qituvchisi",
+      lavozim:"fortepiano yo’nalishi o’qituvchisi (Davlat mukofoti bilan taqdirlangan)",
       malumoti:"oliy",
       oquvYurt:"A.Qodiriy nomili Toshkent davlat Madaniyat institute",
       mutaxaslig:"Xor drijyorligi",
@@ -109,15 +109,6 @@ export const fortopiano = [
       },
       //Akadem xonandaligi yo‘nalishi
       {
-        img:img6,
-        name:"Borchaninova Sofiya Kirilovna",
-        lavozim:"Akademik xonandaligi yo’nalishi o’qituvchisi",
-        malumoti:"oliy",
-        oquvYurt:"O’zbekiston Davlat Konservatoriyasi",
-        mutaxaslig:"Akademik xonandaligi",
-        ishJoy:"2-son BMSMda  2023 yil 01-fevraldan faoliyat ko’rsatadi"
-      },
-      {
         img:img27,
         name:"Xodjayeva Nigina Baxodirovna",
         lavozim:"Akademik xonandaligi yo’nalishi o’qituvchisi",
@@ -163,15 +154,6 @@ export const fortopiano = [
         ishJoy:"2-son BMSMda  2021 yil 06-sentyabrdan faoliyat ko’rsatadi"
       },
       {
-        img:img23,
-        name:"Tursunova Madina Mirsidiq qizi",
-        lavozim:"estrada fortepiano  yo’nalishi o’qituvchisi",
-        malumoti:"oliy,magistr",
-        oquvYurt:"O’zbekiston Davlat Konservatoriyasi huzuridagi B.Zokirov nomidagi Milliy estrada san’at instituti",
-        mutaxaslig:"estrada fortepiano o’qituvchisi",
-        ishJoy:"2-son BMSMda  2015 yil 27-avgustdan faoliyat ko’rsatadi"
-      },
-      {
         img:img15,
         name:"Mo’minjonova Barno Dadaxon qizi",
         lavozim:"estrada fortepiano  yo’nalishi o’qituvchisi",
@@ -188,15 +170,6 @@ export const fortopiano = [
         oquvYurt:"Toshkent davlat pedagogika instituti",
         mutaxaslig:"Ashula o’qituvchisi",
         ishJoy:"2-son BMSMda  1995 yil 10-noyabrdan faoliyat ko’rsatadi"
-      },
-      {
-        img:img31,
-        name:"Abdukamalova Laziza Abdulaziz qizi",
-        lavozim:"estrada xonandaligi  yo’nalishi o’qituvchisi",
-        malumoti:"tugallanmagan oliy",
-        oquvYurt:"O’zbekiston davlat konservatoriyasi huzuridagi B.Zokirov nomidagi Milliy estrada san’at instituti",
-        mutaxaslig:"Vokal san’ati (estrada xonandaligi)",
-        ishJoy:"2-son BMSMda  2023 yil 07-sentyabrdan faoliyat ko’rsatadi"
       },
       {
         img:img32,
@@ -271,15 +244,6 @@ export const fortopiano = [
         oquvYurt:"O’zbekiston davlat konservatoriyasi ",
         mutaxaslig:"Cholg’u ijrochiligi (fortepiano)",
         ishJoy:"2-son BMSMda  2023 yil 04-sentyabrdan faoliyat ko’rsatadi"
-      },
-      {
-        img:img12,
-        name:"Ismoiljonova Hilola Otabek qizi ",
-        lavozim:"konsertmeyster",
-        malumoti:"tugallanmagan oliy",
-        oquvYurt:"O’zbekiston davlat konservatoriyasi ",
-        mutaxaslig:"Cholg’u ijrochiligi (fortepiano) ",
-        ishJoy:"2-son BMSMda  2023 yil 01-dekabrdan faoliyat ko’rsatadi"
       },
       {
         img:img33,

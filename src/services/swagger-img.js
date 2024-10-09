@@ -10,7 +10,7 @@ import swagger8 from '../assets/swagger/swaggeer8.jpg'
 import swagger9 from '../assets/swagger/swaggeer9.jpg'
 import swagger10 from '../assets/swagger/swaggeer10.jpg'
 
-
+///Swapper
 const swagger = [
     {
         img:swagger1
@@ -47,7 +47,7 @@ const swagger = [
 export default swagger
 
 
-
+///BMS
 export const bms = [
     {
         title:'Ta’lim muassasasi tashkil etilgan yil:',
@@ -234,21 +234,21 @@ export const cartImg = [
         img:"http://localhost:3000/static/media/photo_2024-04-24_16-05-17.1f6a4d858f578a5a4de9.jpg",
         title:`Qashqadaryo viloyat Mirishkor tumani 19-son Bolalar musiqa va sanʼat maktabida dars mashgʻulotlari`
     },
-    {
-        img:"	http://localhost:3000/static/media/photo_2024-05-05_14-36-36.1b379dda80d94d3fb8c2.jpg",
-        title:`Mirishkor  Tuman 19 BMSM navruz Kurbonova`
-    },
-    {
-        img:"	http://localhost:3000/static/media/photo_2024-05-05_14-36-36.1b379dda80d94d3fb8c2.jpg",
-        title:`Миришкор туман 19 БМСМ Навруза Курбанова.`
-    },
-    {
-        img:"	http://localhost:3000/static/media/photo_2024-05-05_14-36-36.1b379dda80d94d3fb8c2.jpg",
-        title:`Миришкор туман 19 БМСМ Навруза Курбанова.`
-    },{
-        img:"	http://localhost:3000/static/media/photo_2024-05-05_14-36-36.1b379dda80d94d3fb8c2.jpg",
-        title:`Миришкор туман 19 БМСМ Навруза Курбанова.`
-    },
+    // {
+    //     img:"	http://localhost:3000/static/media/photo_2024-05-05_14-36-36.1b379dda80d94d3fb8c2.jpg",
+    //     title:`Mirishkor  Tuman 19 BMSM navruz Kurbonova`
+    // },
+    // {
+    //     img:"	http://localhost:3000/static/media/photo_2024-05-05_14-36-36.1b379dda80d94d3fb8c2.jpg",
+    //     title:`Миришкор туман 19 БМСМ Навруза Курбанова.`
+    // },
+    // {
+    //     img:"	http://localhost:3000/static/media/photo_2024-05-05_14-36-36.1b379dda80d94d3fb8c2.jpg",
+    //     title:`Миришкор туман 19 БМСМ Навруза Курбанова.`
+    // },{
+    //     img:"	http://localhost:3000/static/media/photo_2024-05-05_14-36-36.1b379dda80d94d3fb8c2.jpg",
+    //     title:`Миришкор туман 19 БМСМ Навруза Курбанова.`
+    // },
 
 
 
