@@ -23,7 +23,7 @@ const Header = () => {
           Toshkent shahar Madaniyat boshqarmasi tasarrufidagi Mirzo Ulug’bek tumani 2-sonli bolalar musiqa va san’at maktabi
           </h1>
           <div className='w-12 md:w-16 lg:w-20'>
-            <Link to={'/'}>
+            <Link to={'https://t.me/TASHMIRZO2BMSM'}>
               <div className='max-w-[60px]'>
                 <img className='hidden md:block w-full' src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Telegram_alternative_logo.svg/2048px-Telegram_alternative_logo.svg.png" alt="Telegram" />
               </div>
