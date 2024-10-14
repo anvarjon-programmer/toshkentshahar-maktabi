@@ -264,10 +264,10 @@ export const cartImg = [
        img: img4,
        name: "2-sonli BMS maktabi honasi"
     },
-    {
-       img: img5,
-       name: "2-sonli BMS maktabi honasi"
-    },
+    // {
+    //    img: img5,
+    //    name: "2-sonli BMS maktabi honasi"
+    // },
     {
        img: img6,
        name: "2-sonli BMS maktabi honasi"
