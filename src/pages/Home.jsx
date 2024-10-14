@@ -92,7 +92,7 @@ const fortopianoPageNumbers = [...Array(fortopianoPageCount).keys()];
       <Yanglilar/>
 
       <section className='px-4 mb-6'>
-        <h1 className='text-center font-semibold mb-10 text-2xl md:text-4xl '>Faoliyat yutitayotgan Xodimlar</h1>
+        <h1 className='text-center font-semibold mb-10 text-2xl md:text-4xl'>Faoliyat yuritayotgan Hodimlar</h1>
   <div className='grid grid-cols md:grid-cols-2 lg:grid-cols-3 gap-[30px] xl:grid-cols-3
       max-w-sm mx-auto md:max-w-none md:mx-0'>
     {

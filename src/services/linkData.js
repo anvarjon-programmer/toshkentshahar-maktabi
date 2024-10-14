@@ -37,7 +37,7 @@ export const bmsLink = [
     },
     {
         title:'BMSM ustavi',
-        url:'https://docs.google.com/document/d/1J30gw2uQEZyw86VE7zF1tM-gvpfh_y12/edit'
+        url:'https://docs.google.com/document/d/1AfiQy01El5uvy7qql96Z3OUhYkOEMdE0/edit?usp=sharing&ouid=115793320638836892454&rtpof=true&sd=true'
     },
     // {
     //     title:'Yuridik shaxsni davlat ro‘yxatidan o‘tkazish to‘g‘risida guvohnoma',

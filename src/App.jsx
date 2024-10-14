@@ -12,7 +12,7 @@ import DetailPage from './pages/DetailPage'
 function App() {
 
   return (
-    <div className='max-w-[1200px] border-[4px] m-auto mt-3 shadow-custom'>
+    <div className='max-w-[1400px] border-[4px] m-auto mt-3 shadow-custom'>
         <div className="coantainer">
         <BrowserRouter>
          <Header/>

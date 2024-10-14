@@ -133,7 +133,7 @@ export const bms = [
     },
     {
         title:'BMSM direktorining o‘quv-ma’rifiy ishlar bo‘yicha o‘rinbosari: ',
-        addition:'vakant'
+        addition:'Inogamova Nafisa Sagdullayevna'
     },
     {
         title:'BMSM direktorining xo‘jalik ishlari bo‘yicha o‘rinbosari: ',
